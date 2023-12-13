@@ -1,0 +1,39 @@
+body {
+    background-color: brown;
+  }
+  
+  .container {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #ccc;
+    position: relative;
+    margin: 20px auto;
+  }
+  
+  .bar {
+    width: 50%;
+    height: 0;
+    background-color: #3498db;
+    position: absolute;
+    bottom: 0;
+    transition: height 0.3s ease-in-out;
+  }
+  
+  .cara {
+    left: 0;
+  }
+  
+  .cruz {
+    right: 0;
+  }
+  
+  .result {
+    font-weight: bold;
+  }
+  
+  .toast-image {
+    max-width: 200px;
+    margin-top: 20px;
+    display: none; 
+  }
+  
